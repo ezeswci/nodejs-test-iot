@@ -1,0 +1,29 @@
+{
+  "name": "iot-db",
+  "version": "0.1.0",
+  "description": "A simple IoT Platform - DB Module",
+  "main": "index.js",
+  "scripts": {
+    "setup": "SET DEBUG=nodejs-test-iot:* && node setup.js",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezeswci/nodejs-test-iot.git"
+  },
+  "author": "Ezequiel Wernicke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ezeswci/nodejs-test-iot/issues"
+  },
+  "homepage": "https://github.com/ezeswci/nodejs-test-iot#readme",
+  "devDependencies": {
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "debug": "^3.1.0",
+    "pg": "^7.4.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.37.6"
+  }
+}
